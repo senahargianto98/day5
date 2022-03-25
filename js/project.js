@@ -97,8 +97,8 @@ function renderBlog() {
       /> 
       <a href="./detail.html">
       <h3>${blogs[i].project}</h3>
-      <p>durasi: ${getDate(blogs[i].get_start_date, blogs[i].get_end_date)}</p>
       </a>
+      <p>durasi: ${getDate(blogs[i].get_start_date, blogs[i].get_end_date)}</p>
       <p>
         ${blogs[i].description}
       </p>
